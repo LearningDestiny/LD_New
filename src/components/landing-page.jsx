@@ -740,7 +740,7 @@ function CallToAction() {
             Courses | Abroad Consultancy | Career Guidance | Workshops | Internships |
             <br /> Events | Mini & Major Projects | Research Paper Assistance | Web & App Development |
             Summer Camps | Digital Marketing | Marketing Services | Startup Assistance <br />
-            For any of these services, 
+            For any of these services, franchises or business collaborations, 
             <h3 className="text-lg font-black mb-2">contact us at +91 9059898900.</h3>
 
             </p>
