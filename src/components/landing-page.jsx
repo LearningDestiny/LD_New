@@ -728,13 +728,20 @@ function CallToAction() {
                 className="w-55 h-auto"
               />
               <p className="text-black text-base">
-                Learners who are transforming their lives through education.<br />
-                <span className="font-semibold"> Start your journey today!</span>
+              <span className="font-semibold"> Transforming Dreams into Destinies.</span>
+                <br /> At Learning Destiny Pvt. Ltd., we bridge the gap between aspirations and achievements.
+                <br />From education and career guidance to hands-on skill development and global opportunities,
+                <br />we equip students with everything they need to succeed. Your journey to success starts here!
+                
               </p>
             </div>
             <p className="text-black text-sm mt-2 max-w-[250px]">
-              For Websites, Apps, Student Events, Summer Internships, Research Papers, Mini & Major Projects and end-to-end marketing services,
-              Contact us @ +91 9059898900
+            <h3 className="text-lg font-black mb-2">Our Services</h3>
+            Courses | Abroad Consultancy | Career Guidance | Workshops | Internships |
+            <br /> Events | Mini & Major Projects | Research Paper Assistance | Web & App Development |
+            <br />Summer Camps | Digital Marketing | Marketing Services | Startup Assistance
+            <h3 className="text-lg font-black mb-2">For any of these services, contact us at +91 9059898900.</h3>
+
             </p>
           </div>
           {/* </div> */}
@@ -755,24 +762,40 @@ function CallToAction() {
               </ul>
             </div>
             <div className="flex flex-col items-center md:items-start">
-              <h3 className="text-lg font-semibold mb-2">Connect</h3>
-              <ul className="space-y-1">
-                <li>
-                  <a href="tel:+919059898900" className="text-black hover:text-blue-700 transition-colors duration-300 text-center md:text-left">
-                    <h3 className="text-lg mb-2 text-center md:text-left">+91 9059898900</h3>
-                  </a>
-                </li>
-                <li>
-                  <Link href="/ContactUs" className="text-black hover:text-blue-700 transition-colors duration-300">
-                    <h3 className="text-lg font-semibold mb-2 text-center md:text-left">Address</h3>
-                    <p className="text-center md:text-left">
-                      2-4-149, 2nd Floor, JR Edifice,<br />
-                      Snehapuri x Road, Nagole,<br />
-                      Medchal Dist., Hyderabad - 500035, TG.
-                    </p>
-                  </Link>
-                </li>
-              </ul>
+            <h3 className="text-lg font-semibold mb-2">Connect</h3>
+  <ul className="space-y-1">
+    <li>
+      <a
+        href="tel:+919059898900"
+        className="text-black hover:text-blue-700 transition-colors duration-300 text-center md:text-left"
+      >
+        Call: +91 9059898900
+      </a>
+    </li>
+    <li>
+      <a
+        href="mailto:youremail@example.com"
+        className="text-black hover:text-blue-700 transition-colors duration-300 text-center md:text-left"
+      >
+        Email: youremail@example.com
+      </a>
+    </li>
+    <li>
+      <Link
+        href="https://maps.app.goo.gl/Scq67cFQ4FNWiHXG8"
+        className="text-black hover:text-blue-700 transition-colors duration-300"
+      >
+        <h3 className="text-lg font-semibold mb-2 text-center md:text-left">
+          Address
+        </h3>
+        <p className="text-center md:text-left">
+          Aurobindo Pride, Near BVK Multiplex,<br />
+          LB Nagar, KV Rangareddy, <br />
+          Hyderabad - 500074, TG.
+        </p>
+      </Link>
+    </li>
+  </ul>
             </div>
           </div>
         </div>
