@@ -221,7 +221,7 @@ const Courses = () => {
 
                 {/* Container: Enables horizontal scrolling on mobile, grid layout on desktop */}
                 {/* <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4"> */}
-                <div className="flex gap-6 overflow-x-auto md:grid md:grid-cols-3 md:gap-6 px-4 md:px-0">
+                <div className="rid grid-cols-2 gap-1 px-2 sm:px-0 md:grid-cols-3 md:gap-6 md:gap-y-4 lg:gap-8 lg:gap-y-6 lg:px-0">
                   {filteredCourses.map((course) => (
                     <div
                       key={course.id}
