@@ -730,8 +730,8 @@ function CallToAction() {
               <p className="text-black text-base">
               <span className="font-semibold"> Transforming Dreams into Destinies.</span>
                 <br /> At Learning Destiny Pvt. Ltd., we bridge the gap between aspirations and achievements.
-                <br />From education and career guidance to hands-on skill development and global opportunities,
-                <br />we equip students with everything they need to succeed. Your journey to success starts here!
+                From education and career guidance <br /> to hands-on skill development and global opportunities,
+               we equip students with everything they need to succeed.  <br /> Your journey to success starts here!
                 
               </p>
             </div>
@@ -739,8 +739,9 @@ function CallToAction() {
             <h3 className="text-lg font-black mb-2">Our Services</h3>
             Courses | Abroad Consultancy | Career Guidance | Workshops | Internships |
             <br /> Events | Mini & Major Projects | Research Paper Assistance | Web & App Development |
-            <br />Summer Camps | Digital Marketing | Marketing Services | Startup Assistance
-            <h3 className="text-lg font-black mb-2">For any of these services, contact us at +91 9059898900.</h3>
+            Summer Camps | Digital Marketing | Marketing Services | Startup Assistance <br />
+            For any of these services, 
+            <h3 className="text-lg font-black mb-2">contact us at +91 9059898900.</h3>
 
             </p>
           </div>
@@ -774,10 +775,10 @@ function CallToAction() {
     </li>
     <li>
       <a
-        href="mailto:youremail@example.com"
+        href="management@learningdestiny.in"
         className="text-black hover:text-blue-700 transition-colors duration-300 text-center md:text-left"
       >
-        Email: youremail@example.com
+        Email: management@learningdestiny.in
       </a>
     </li>
     <li>
