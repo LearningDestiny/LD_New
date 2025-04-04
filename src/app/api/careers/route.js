@@ -39,7 +39,7 @@ export async function POST(req) {
     const experience = formData.get("experience");
     const date = formData.get("date");
     const description = formData.get("description");
-    const requirements = JSON.parse(formData.get("requirements"));
+    // const requirements = JSON.parse(formData.get("requirements"));
 
     if (!title || !location || !experience || !date) {
       return NextResponse.json({ message: "Title, location, experience, and date are required" }, { status: 400 });
@@ -55,7 +55,7 @@ export async function POST(req) {
       experience,
       date,
       description,
-      requirements,
+      // requirements,
     };
 
     careers.push(newCareer);

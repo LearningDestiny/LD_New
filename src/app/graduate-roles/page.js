@@ -20,7 +20,6 @@ const GraduateRoles = () => {
   const fetchGraduateRoles = async () => {
     try {
       const response = await axios.get('/api/graduate-roles');
-      console.log(response.data,">>>>>>>>>>>>>>>>>>")
       setGraduateRoles(response.data);
     } catch (error) {
       console.error('Error fetching graduate roles:', error);

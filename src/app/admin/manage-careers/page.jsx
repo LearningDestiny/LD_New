@@ -38,17 +38,17 @@ const ManageCareers = () => {
   const handleUpdateRole = async () => {
     if (!editingRole) return;
   
-    if(editingRole.requirements.length === 0){
-      alert("Please add at least one requirement.");
-      return;
-    }
-    // check requirements filed are filled
-    for (let i = 0; i < editingRole.requirements.length; i++) {
-      if (editingRole.requirements[i] === '') {
-        alert("Please fill all requirement fields.");
-        return;
-      }
-    }
+    // if(editingRole.requirements.length === 0){
+    //   alert("Please add at least one requirement.");
+    //   return;
+    // }
+    // // check requirements filed are filled
+    // for (let i = 0; i < editingRole.requirements.length; i++) {
+    //   if (editingRole.requirements[i] === '') {
+    //     alert("Please fill all requirement fields.");
+    //     return;
+    //   }
+    // }
     try {
       setLoading(true);
       const formData = new FormData();
@@ -57,8 +57,7 @@ const ManageCareers = () => {
       formData.append("location", editingRole.location);
       formData.append("experience", editingRole.experience);
       formData.append("date", editingRole.date);
-      formData.append("description", editingRole.description);
-      formData.append("requirements", JSON.stringify(editingRole.requirements)); // Convert requirements to JSON string
+      formData.append("description", editingRole.description); // Convert requirements to JSON string
   
       const endpoint = editingRole.type === "graduate" ? "/api/graduate-roles" : "/api/careers";
   
@@ -292,7 +291,7 @@ const ManageCareers = () => {
                   rows={3}
                 ></textarea>
               </div>
-              <div className="mb-4">
+              {/* <div className="mb-4">
                               <label className="block text-gray-700 text-sm font-bold mb-2">Requirements</label>
                               {editingRole?.requirements && editingRole.requirements.map((requirement, index) => (
                                 <div key={index} className="flex items-center mb-3 border shadow-sm p-3 rounded-md">
@@ -323,7 +322,7 @@ const ManageCareers = () => {
                               >
                                 <FaPlus className="inline mr-1 " /> Add Requirements
                               </button>
-                            </div>
+                            </div> */}
 
             </AdminDialog>
         )

@@ -48,7 +48,7 @@ export async function POST(req) {
         //     resource,
         // });
         console.log("Data to append:", data);
-        await axios.post("https://script.google.com/macros/s/AKfycbyZEOkr5gxDR89lBryMIhZCUME2tbvniB7s-v7v68dMiDtPiUctDBcpxzJptStolpClgw/exec", data);
+        await axios.post("https://script.google.com/macros/s/424-v7v68dMiDtPiUctDBcpxzJptStolpClgw/exec", data);
         // Respond with success
         return new Response(
             JSON.stringify({

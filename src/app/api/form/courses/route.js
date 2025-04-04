@@ -49,7 +49,6 @@ export async function GET(request) {
 
 export async function POST(request) {
   try {
-    console.log("Calling api")
     const data = await request.json();
 
 

@@ -21,7 +21,6 @@ const processStateCityData = (data) => {
   };
 };
 const rephraseAmount = (price)=> {
-  console.log(price,">>>")
   return parseFloat(price.replace(/[^0-9.-]+/g, '').replace(',', ''))
 }
 const FormDialog = ({ feature, open, onClose, data }) => {
@@ -117,9 +116,8 @@ const FormDialog = ({ feature, open, onClose, data }) => {
   const handleFileChange = (e) => {
     setFile(e.target.files[0]);
   };
-  console.log(data, ">>>>>😀😀😀😀")
   const handleSubmit = async (e) => {
-    console.log("😀😀😀😀😁");
+
    
 
     e.preventDefault();
@@ -128,6 +126,10 @@ const FormDialog = ({ feature, open, onClose, data }) => {
       ...(file && { resume: file.name }),
     };
 
+    if (file && file.size > 1024 * 1024) {
+      alert("File size should not be greater than 1MB");
+      return;
+    }
     // Handle submission based on feature
     switch (feature) {
       case "Course":
@@ -170,28 +172,37 @@ const FormDialog = ({ feature, open, onClose, data }) => {
               description: 'Your details have been saved. Please proceed with the payment.',
               variant: 'success',
             });
-            setPaymentEnabled(true); 
+            
             let getPrice = await rephraseAmount(data.price)
-            setAmount(getPrice)
-            setPaymentConfig({
-              amount: data.price, // from your course/event data
-              feature: feature.toLowerCase(), // 'course', 'event', etc.
-              submissionId: result.data.id,
-              itemId: data.id,
-              userId: result.data.userId,
-              userDetails: {
-                fullName: formData.fullName,
-                email: formData.email,
-                phone: formData.phone,
-                city: formData.city,
-                state: formData.state,
-                country: "India",
-                steam: formData.stream,
-                highestQualification: formData.highestQualification,
-                dob: formData.dob
-
-              }
-            });
+            if (getPrice <= 0) {
+              setPaymentEnabled(false);  
+              onClose();
+            }
+            else {
+              setPaymentEnabled(true);
+              setAmount(getPrice)
+              setPaymentConfig({
+                amount: data.price, // from your course/event data
+                feature: feature.toLowerCase(), // 'course', 'event', etc.
+                submissionId: result.data.id,
+                itemId: data.id,
+                userId: result.data.userId,
+                userDetails: {
+                  fullName: formData.fullName,
+                  email: formData.email,
+                  phone: formData.phone,
+                  city: formData.city,
+                  state: formData.state,
+                  country: "India",
+                  steam: formData.stream,
+                  highestQualification: formData.highestQualification,
+                  dob: formData.dob
+  
+                }
+              });
+            }
+            
+           
             // onClose();
           } else {
             throw new Error(result.error || "Failed to submit form");
@@ -243,29 +254,37 @@ const FormDialog = ({ feature, open, onClose, data }) => {
               description: 'Your details have been saved. Please proceed with the payment.',
               variant: 'success',
             });
-            setPaymentEnabled(true); 
             let getPrice = await rephraseAmount(data.price)
-            setAmount(getPrice)
-            setPaymentConfig({
-              amount: data.price, 
-              feature: feature.toLowerCase(), 
-              submissionId: result.data.id,
-              itemId: data.id,
-              userId: result.data.userId,
-              userDetails: {
-                fullName: formData.fullName,
-                email: formData.email,
-                phone: formData.phone,
-                city: formData.city,
-                state: formData.state,
-                country: "India",
-                steam: formData.stream,
-                highestQualification: formData.highestQualification,
-                dob: formData.dob,
-                source: formData?.source
-
-              }
-            });
+            if(getPrice <= 0){
+              setPaymentStatus(false);
+              onClose()
+            }
+            else{
+              setPaymentEnabled(true); 
+           
+              setAmount(getPrice)
+              setPaymentConfig({
+                amount: data.price, 
+                feature: feature.toLowerCase(), 
+                submissionId: result.data.id,
+                itemId: data.id,
+                userId: result.data.userId,
+                userDetails: {
+                  fullName: formData.fullName,
+                  email: formData.email,
+                  phone: formData.phone,
+                  city: formData.city,
+                  state: formData.state,
+                  country: "India",
+                  steam: formData.stream,
+                  highestQualification: formData.highestQualification,
+                  dob: formData.dob,
+                  source: formData?.source
+  
+                }
+              });
+            }
+            
             // onClose();
           } else {
             throw new Error(result.error || "Failed to submit form");
@@ -316,29 +335,38 @@ const FormDialog = ({ feature, open, onClose, data }) => {
               description: 'Your details have been saved. Please proceed with the payment.',
               variant: 'success',
             });
-            setPaymentEnabled(true); 
             let getPrice = await rephraseAmount(data.price)
-            setAmount(getPrice)
-            setPaymentConfig({
-              amount: data.price, 
-              feature: feature.toLowerCase(), 
-              submissionId: result.data.id,
-              itemId: data.id,
-              userId: result.data.userId,
-              userDetails: {
-                fullName: formData.fullName,
-                email: formData.email,
-                phone: formData.phone,
-                city: formData.city,
-                state: formData.state,
-                country: "India",
-                steam: formData.stream,
-                highestQualification: formData.highestQualification,
-                dob: formData.dob,
-                source : formData.source
+            if(getPrice <= 0 ){
+              setPaymentEnabled(false);
+              onClose();
+            }
+            else{
 
-              }
-            });
+              setPaymentEnabled(true); 
+              setAmount(getPrice)
+              setPaymentConfig({
+                amount: data.price, 
+                feature: feature.toLowerCase(), 
+                submissionId: result.data.id,
+                itemId: data.id,
+                userId: result.data.userId,
+                userDetails: {
+                  fullName: formData.fullName,
+                  email: formData.email,
+                  phone: formData.phone,
+                  city: formData.city,
+                  state: formData.state,
+                  country: "India",
+                  steam: formData.stream,
+                  highestQualification: formData.highestQualification,
+                  dob: formData.dob,
+                  source : formData.source
+  
+                }
+              });
+
+            }
+
             // onClose();
           } else {
             throw new Error(result.error || "Failed to submit form");
@@ -816,7 +844,7 @@ const FormDialog = ({ feature, open, onClose, data }) => {
             </div>
             <div className="mb-4">
               <label className="block text-gray-700 mb-2">
-                How Did You Hear About Us?
+                How Did You Hear About Us? *
               </label>
               <select
                 name="source"
@@ -1238,7 +1266,7 @@ const FormDialog = ({ feature, open, onClose, data }) => {
                 </div>
                 <div className="mb-4">
                   <label className="block text-gray-700 mb-2">
-                    Skills (comma separated)
+                    Skills (comma separated) *
                   </label>
                   <input
                     type="text"
@@ -1253,7 +1281,7 @@ const FormDialog = ({ feature, open, onClose, data }) => {
 
             <div className="mb-4">
               <label className="block text-gray-700 mb-2">
-                Resume (PDF only)
+                Resume (PDF only) *
               </label>
               <input
                 type="file"
@@ -1306,6 +1334,7 @@ const FormDialog = ({ feature, open, onClose, data }) => {
                   type="number"
                   min="0"
                   name="expectedSalary"
+                  required
                   className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   onChange={handleChange}
                 />
@@ -1316,12 +1345,13 @@ const FormDialog = ({ feature, open, onClose, data }) => {
             
             <div className="mb-4">
               <label className="block text-gray-700 mb-2">
-                Available Start Date
+                Available Start Date *
               </label>
               
                 <input
                   type="date"
                   name="availableStartDate"
+                  required
                   className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   onChange={handleChange}
                 />
@@ -1329,7 +1359,7 @@ const FormDialog = ({ feature, open, onClose, data }) => {
             </div>
             <div className="mb-4">
               <label className="block text-gray-700 mb-2">
-                How Did You Hear About Us?
+                How Did You Hear About Us? *
               </label>
               <select
                 name="source"

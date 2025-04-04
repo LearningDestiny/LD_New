@@ -101,7 +101,6 @@ const JobApplication = () => {
         const response = await fetch(`/api/careers/${id}`);
         if (!response.ok) throw new Error('Failed to fetch internship');
         const data = await response.json();
-        console.log(data,">>>>>")
         setJobDetails(data[0]);
         setLoading(false);
         } catch (error) {
@@ -115,7 +114,6 @@ const JobApplication = () => {
 
 
     const id = Number(searchParams.get("id"));
-    console.log(id,">>>>")
     fetchData(id);
     // if (id && jobData[id]) {
     //   setJobDetails({ id, ...jobData[id] });

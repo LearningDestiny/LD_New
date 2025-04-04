@@ -81,7 +81,7 @@ export async function POST(req) {
       agenda
     };
 
-    console.log("newEvent",newEvent,">>>>>>",highlights)
+  
 
     events.push(newEvent);
     await fs.writeFile(filePath, JSON.stringify(events, null, 2), "utf-8");

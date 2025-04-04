@@ -728,24 +728,14 @@ function CallToAction() {
                 className="w-55 h-auto"
               />
               <p className="text-black text-base">
-              <span className="font-semibold">Transforming Dreams into Destinies</span>
-       <br/>At Learning Destiny Pvt. Ltd., we bridge the gap between aspirations and achievements.<br />
-             From education and career guidance to hands-on skill development and global opportunities,
-              we equip students with everything they need to succeed. 
-             <br /> Your journey to success starts here!
-                
+                Learners who are transforming their lives through education.<br />
+                <span className="font-semibold"> Start your journey today!</span>
               </p>
             </div>
-            <div className="text-black text-sm font-bold mt-2 max-w-[250px]">
-  <h3>Our Services</h3>
-</div>
-
             <p className="text-black text-sm mt-2 max-w-[250px]">
-            Courses | Abroad Consultancy | Career Guidance | Workshops | Internships | Events | Mini & Major Projects | Research Paper Assistance | Web & App Development | Summer Camps | Digital Marketing | Marketing Services | Startup Assistance
+              For Websites, Apps, Student Events, Summer Internships, Research Papers, Mini & Major Projects and end-to-end marketing services,
+              Contact us @ +91 9059898900
             </p>
-            <div className="text-black text-sm font-bold mt-2 max-w-[250px]">
-  <h3>For any of these services, contact us at +91 9059898900.</h3>
-</div>
           </div>
           {/* </div> */}
           <div className="flex flex-col md:flex-row w-full lg:w-1/3 space-y-6 md:space-y-0 md:space-x-8"> {/* Update 5 */}
@@ -765,40 +755,24 @@ function CallToAction() {
               </ul>
             </div>
             <div className="flex flex-col items-center md:items-start">
-            <h3 className="text-lg font-semibold mb-2">Connect</h3>
-  <ul className="space-y-1">
-    <li>
-      <a
-        href="tel:+919059898900"
-        className="text-black hover:text-blue-700 transition-colors duration-300 text-center md:text-left"
-      >
-        Call: +91 9059898900
-      </a>
-    </li>
-    <li>
-      <a
-        href="management@learningdestiny.in"
-        className="text-black hover:text-blue-700 transition-colors duration-300 text-center md:text-left"
-      >
-        Email: management@learningdestiny.in
-      </a>
-    </li>
-    <li>
-      <Link
-        href="https://maps.app.goo.gl/Scq67cFQ4FNWiHXG8"
-        className="text-black hover:text-blue-700 transition-colors duration-300"
-      >
-        <h3 className="text-lg font-semibold mb-2 text-center md:text-left">
-          Address
-        </h3>
-        <p className="text-center md:text-left">
-          Aurobindo Pride, Near BVK Multiplex,<br />
-          LB Nagar, KV Rangareddy, <br />
-          Hyderabad - 500074, TG.
-        </p>
-      </Link>
-    </li>
-  </ul>
+              <h3 className="text-lg font-semibold mb-2">Connect</h3>
+              <ul className="space-y-1">
+                <li>
+                  <a href="tel:+919059898900" className="text-black hover:text-blue-700 transition-colors duration-300 text-center md:text-left">
+                    <h3 className="text-lg mb-2 text-center md:text-left">+91 9059898900</h3>
+                  </a>
+                </li>
+                <li>
+                  <Link href="/ContactUs" className="text-black hover:text-blue-700 transition-colors duration-300">
+                    <h3 className="text-lg font-semibold mb-2 text-center md:text-left">Address</h3>
+                    <p className="text-center md:text-left">
+                      2-4-149, 2nd Floor, JR Edifice,<br />
+                      Snehapuri x Road, Nagole,<br />
+                      Medchal Dist., Hyderabad - 500035, TG.
+                    </p>
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
