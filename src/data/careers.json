@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "title": "Software Engineer",
+      "location": "Hyderabad",
+      "experience": "1+ years",
+      "date": "26/01/2025",
+      "description": "As a Software Engineer, you will be responsible for designing, developing, and maintaining high-quality web applications. You will work with a team of developers, designers, and product managers to build scalable and efficient software solutions.",
+      "requirements": [
+        "1+ years of experience in React.js, Node.js, MongoDB, MySQL, JavaScript, and ASP.NET (MVC).",
+        "Strong understanding of front-end and back-end development.",
+        "Experience with RESTful APIs and database management.",
+        "Ability to write clean, efficient, and well-documented code.",
+        "Excellent problem-solving skills and a keen eye for detail.",
+        "Good communication and teamwork skills."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Web Designer",
+      "location": "Bangalore",
+      "experience": "2 - 3 years",
+      "date": "26/01/2025",
+      "description": "As a Web Designer, you will be responsible for creating visually appealing and user-friendly web designs. You will work closely with developers and marketing teams to enhance website aesthetics and usability.",
+      "requirements": [
+        "Proficiency in HTML, CSS, and JavaScript.",
+        "Experience with UI/UX design tools like Figma or Adobe XD.",
+        "Understanding of responsive web design principles.",
+        "Ability to create engaging layouts and designs.",
+        "Good communication skills and attention to detail.",
+        "Experience with modern design trends and web accessibility."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Product Manager",
+      "location": "Chennai",
+      "experience": "4 - 8 years",
+      "date": "26/01/2025",
+      "description":  "As a Product Manager, you will be responsible for defining the product vision, strategy, and roadmap. You will work closely with cross-functional teams, including engineering, design, and marketing, to ensure successful product development and launch.",
+      "requirements": [
+        "2+ years of experience in product management or a related role.",
+        "Strong analytical skills and the ability to interpret data-driven insights.",
+        "Experience in Agile methodologies and software development lifecycle.",
+        "Excellent communication and stakeholder management skills.",
+        "Ability to define clear product goals and prioritize features accordingly.",
+        "Understanding of user experience (UX) principles and market trends."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Data Scientist",
+      "location": "Remote",
+      "experience": "7+ years",
+      "date": "27/01/2025",
+      "description": "As a Data Scientist, you will analyze complex datasets to extract meaningful insights and build predictive models. You will work with machine learning algorithms and data visualization tools to drive data-driven decision-making.",
+      "requirements": [
+        "Proficiency in Python, R, or SQL for data analysis.",
+        "Experience with machine learning frameworks such as TensorFlow or Scikit-learn.",
+        "Strong statistical analysis and data visualization skills.",
+        "Knowledge of data cleaning, preprocessing, and feature engineering.",
+        "Familiarity with big data technologies like Hadoop or Spark is a plus.",
+        "Ability to communicate complex data findings in a clear and concise manner."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Tech Lead",
+      "location": "Hyderabad",
+      "experience": "5 - 6 years",
+      "date": "28/01/2025",
+      "description": "As a Tech Lead, you will provide technical leadership and guidance to a team of engineers. You will be responsible for architectural decisions, code quality, and ensuring best practices in software development.",
+      "requirements": [
+        "5+ years of experience in software development with leadership responsibilities.",
+        "Expertise in full-stack development with modern technologies.",
+        "Ability to mentor and guide junior developers.",
+        "Strong problem-solving skills and architectural decision-making.",
+        "Experience with DevOps, CI/CD, and cloud platforms like AWS or Azure.",
+        "Excellent communication and collaboration skills."
+      ]
+    }
+]

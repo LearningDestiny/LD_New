@@ -1,0 +1,165 @@
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #f3f3f4;
+  }
+  
+  .sidebar {
+    width: 16rem;
+    background-color: #3730a3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed; /* Fix the sidebar */
+    height: 100%; /* Make it fit the full height */
+    overflow-y: auto; /* Add scrolling if content overflows */
+  }
+  
+  .sidebarTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #312e81;
+  }
+  
+  .sidebarNav {
+    margin-top: 2rem;
+  }
+  
+  .sidebarLink {
+    display: block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+  
+  .sidebarLink:hover {
+    background-color: #4338ca;
+  }
+  
+  .logoutButton {
+    margin: 1rem;
+    padding: 0.75rem 1rem;
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .logoutButton:hover {
+    background-color: #dc2626;
+  }
+  
+  .mainContent {
+    margin-left: 16rem; /* Add margin to account for the fixed sidebar */
+    padding: 2.5rem;
+    flex: 1;
+    overflow-y: auto; /* Add scrolling for the main content */
+  }
+  
+  .mainTitle {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 1rem;
+  }
+  
+  .mainDescription {
+    font-size: 1rem;
+    color: #4b5563;
+    margin-bottom: 2.5rem;
+  }
+  
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    /* For tablet screens and above */
+    .cardContainer {
+      grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 columns */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /* For desktop screens and above */
+    .cardContainer {
+      grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 columns */
+    }
+  }
+  
+  .card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .cardTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  
+  .cardTitle:nth-child(1) {
+    color: #4f46e5;
+  }
+  
+  .cardTitle:nth-child(2) {
+    color: #10b981;
+  }
+  
+  .cardTitle:nth-child(3) {
+    color: #8b5cf6;
+  }
+  
+  .cardDescription {
+    color: #4b5563;
+    margin-bottom: 1rem;
+  }
+  
+  .cardButton {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+  
+  .cardButton:hover {
+    background-color: #4338ca;
+  }
+  
+  .loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fef3c7;
+  }
+  
+  .loadingText {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2563eb;
+  }

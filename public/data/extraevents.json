@@ -1,0 +1,98 @@
+[
+  {
+    "id": 4,
+    "title": "IoT & Smart Technology Conference 2024",
+    "organizer": "IoT Future Tech",
+    "date": "September 18, 2024",
+    "location": "London, UK",
+    "price": "799 Rs",
+    "imageUrl": "",
+    "description": "A global conference focused on the latest advancements and innovations in IoT and smart technology.",
+    "agenda": [
+      {
+        "time": "9:00 AM - 10:00 AM",
+        "session": "Keynote: The Future of IoT in Everyday Life",
+        "speaker": "Dr. Lisa Wong"
+      },
+      {
+        "time": "11:00 AM - 12:30 PM",
+        "session": "Workshop: Building Smart IoT Applications",
+        "speaker": "Mark Johnson"
+      },
+      {
+        "time": "2:00 PM - 3:30 PM",
+        "session": "Panel Discussion: Security Challenges in IoT",
+        "speaker": "Industry Experts"
+      }
+    ],
+    "highlights": [
+      "Live IoT Demos",
+      "Smart Home & Industry Solutions",
+      "Networking with IoT Innovators"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Game Development Expo 2024",
+    "organizer": "Global Game Devs",
+    "date": "October 22, 2024",
+    "location": "Tokyo, Japan",
+    "price": "1,499 Rs",
+    "imageUrl": "",
+    "description": "An event for game developers to showcase innovations and explore new technologies.",
+    "agenda": [
+      {
+        "time": "10:00 AM - 11:30 AM",
+        "session": "Keynote: The Evolution of Game Engines",
+        "speaker": "Emily Thompson"
+      },
+      {
+        "time": "12:00 PM - 1:30 PM",
+        "session": "Workshop: Unity & Unreal Engine Basics",
+        "speaker": "Michael Chen"
+      },
+      {
+        "time": "3:00 PM - 4:30 PM",
+        "session": "Panel Discussion: Future of VR in Gaming",
+        "speaker": "Game Industry Leaders"
+      }
+    ],
+    "highlights": [
+      "Live Game Demos",
+      "VR & AR Gaming Insights",
+      "Indie Developer Showcase"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Robotics & Automation Summit 2024",
+    "organizer": "RoboTech Innovations",
+    "date": "November 5, 2024",
+    "location": "Berlin, Germany",
+    "price": "Free",
+    "imageUrl": "",
+    "description": "A global summit discussing the future of robotics and automation in industries.",
+    "agenda": [
+      {
+        "time": "9:30 AM - 10:30 AM",
+        "session": "Keynote: Robotics in Manufacturing",
+        "speaker": "Dr. Alan Wright"
+      },
+      {
+        "time": "11:00 AM - 12:30 PM",
+        "session": "Workshop: Building Autonomous Robots",
+        "speaker": "Sophia Roberts"
+      },
+      {
+        "time": "2:30 PM - 4:00 PM",
+        "session": "Panel Discussion: AI & Robotics Integration",
+        "speaker": "Top Robotics Engineers"
+      }
+    ],
+    "highlights": [
+      "Live Robotics Demos",
+      "AI-Driven Automation",
+      "Industry Networking"
+    ]
+  }
+]

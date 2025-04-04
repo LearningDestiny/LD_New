@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "title": "Full-Stack Web Development Workshop",
+    "instructor": "Jane Doe",
+    "rating": 4.8,
+    "ratingCount": 120,
+    "price": "2,999 Rs",
+    "imageUrl": "/Full stack.jpg",
+    "lastUpdated": "September 2024",
+    "duration": "40 hours",
+    "lectureCount": 15,
+    "description": "Learn the basics of full-stack web development with hands-on sessions.",
+    "highlights": [
+      "HTML, CSS, JavaScript Basics",
+      "Introduction to Front-end Frameworks",
+      "Backend Development with Node.js",
+      "Working with Databases",
+      "Deploying a Full-Stack Application"
+    ],
+    "roadmap": [
+      {
+        "month": "Month 1",
+        "weeks": [
+          {
+            "week": "Week 1: Introduction to Web Development",
+            "topics": [
+              "Overview of Web Development",
+              "HTML & CSS Basics",
+              "JavaScript Introduction"
+            ]
+          },
+          {
+            "week": "Week 2: Frontend Development",
+            "topics": [
+              "Working with CSS Frameworks",
+              "JavaScript ES6 Features",
+              "Building Dynamic Web Pages"
+            ]
+          },
+          {
+            "week": "Week 3: Backend Development",
+            "topics": [
+              "Introduction to Node.js",
+              "Building REST APIs",
+              "Connecting to a Database"
+            ]
+          }
+        ]
+      }
+    ],
+    "image": "/images/1742118244144_data science and machine learning.png"
+  },
+  {
+    "id": 2,
+    "title": "Data Analysis Workshop with Python",
+    "instructor": "John Smith",
+    "rating": 4.7,
+    "ratingCount": 180,
+    "price": "3,499 Rs",
+    "imageUrl": "https://framerusercontent.com/images/OPXPK3EVvWKTxyehPUHeWjtfkA.png",
+    "lastUpdated": "October 2024",
+    "duration": "30 hours",
+    "lectureCount": 10,
+    "description": "Learn data analysis using Python libraries like Pandas and NumPy.",
+    "highlights": [
+      "Data Cleaning with Pandas",
+      "Data Visualization with Matplotlib",
+      "Data Aggregation and Analysis",
+      "Working with Jupyter Notebooks"
+    ],
+    "roadmap": [
+      {
+        "month": "Month 1",
+        "weeks": [
+          {
+            "week": "Week 1: Introduction to Data Analysis",
+            "topics": [
+              "Understanding Data Analysis",
+              "Setting up the Python Environment",
+              "Introduction to Pandas"
+            ]
+          },
+          {
+            "week": "Week 2: Data Visualization",
+            "topics": [
+              "Using Matplotlib for Visualizing Data",
+              "Creating Plots and Graphs",
+              "Data Presentation Techniques"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Digital Marketing Bootcamp",
+    "instructor": "Marcus Lucias",
+    "rating": "5",
+    "ratingCount": "200",
+    "price": "3,999 Rs",
+    "imageUrl": "https://academy.skillgenic.in/wp-content/uploads/2020/07/1340caf6112d8998a65f47bbc026.png",
+    "lastUpdated": "January 2025",
+    "duration": "12 hours",
+    "lectureCount": "15",
+    "description": "Gain essential digital marketing skills in SEO, social media, content marketing, and analytics",
+    "highlights": [
+      "Learn social media strategies",
+      "Analyze data-driven campaigns",
+      "Optimize online business presence",
+      "Master SEO and content marketing"
+    ],
+    "roadmap": [
+      {
+        "month": "Month 1",
+        "weeks": [
+          {
+            "week": "Week 1: Introduction to Digital Marketing",
+            "topics": [
+              "Overview of Digital Marketing",
+              "Setting Up a Digital Marketing Strategy",
+              "Introduction to SEO and SEM"
+            ]
+          },
+          {
+            "week": "Week 2: Social Media Marketing",
+            "topics": [
+              "Understanding Social Media Platforms",
+              "Creating Effective Social Media Campaigns",
+              "Analyzing Social Media Metrics"
+            ]
+          }
+        ]
+      }
+    ],
+    "image": "/images/1743357251434_bg.jpg"
+  },
+  {
+    "id": 4,
+    "title": "test",
+    "price": "test",
+    "description": "fasd",
+    "duration": "123 ",
+    "instructor": "test",
+    "image": "/images/1743357237394_img-5.jpg",
+    "highlights": [
+      "test 1"
+    ],
+    "rating": "0",
+    "ratingCount": "0",
+    "lectureCount": "1",
+    "roadmap": [
+      {
+        "month": "test  123",
+        "weeks": [
+          {
+            "week": "test ",
+            "topics": [
+              "test"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Workshop for Testing",
+    "price": "1 Rs",
+    "description": "By default, all toasts will inherit ToastContainer's props. Props defined on toast supersede ToastContainer's props. Props marked with * can only be set on the ToastContainer. The demo is not exhaustive, check the doc for more!",
+    "duration": "5 hours",
+    "instructor": "Rajat Arya",
+    "image": "/images/1743512180738_img-8.jpg",
+    "highlights": [
+      "cypress testing",
+      "Componenent testing"
+    ],
+    "rating": "4",
+    "ratingCount": "123",
+    "lectureCount": "4",
+    "roadmap": [
+      {
+        "month": "Worked on Accessiblity",
+        "weeks": [
+          {
+            "week": "Handling on different Browser",
+            "topics": [
+              "Chrome",
+              "Mozilla handing"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

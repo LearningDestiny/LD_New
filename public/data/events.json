@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "title": "AI and Machine Learning Summit ",
+    "organizer": "Tech Corp",
+    "date": "March 15, 2025",
+    "location": "New York City, NY",
+    "price": "Free",
+    "imageUrl": "/AI Event.jpeg",
+    "description": "A one-day summit to explore the latest trends and innovations in AI and Machine Learning.",
+    "agenda": [
+      {
+        "time": "10:00 AM - 11:00 AM",
+        "session": "Keynote: The Future of AI",
+        "speaker": "Dr. Jane Doe"
+      },
+      {
+        "time": "11:30 AM - 1:00 PM",
+        "session": "Workshop: Building Machine Learning Models",
+        "speaker": "John Smith"
+      },
+      {
+        "time": "2:00 PM - 3:30 PM",
+        "session": "Panel Discussion: Ethics in AI",
+        "speaker": "Various Industry Leaders"
+      }
+    ],
+    "highlights": [
+      "Networking Opportunities",
+      "Hands-on Workshops",
+      "Expert Panel Discussions"
+    ],
+    "duration": "undefined",
+    "summaryDescription": "demo",
+    "image": "/images/1742243805551_Screenshot 2025-02-14 023807.png"
+  },
+  {
+    "id": 2,
+    "title": "Web Development Bootcamp",
+    "organizer": "Code Academy",
+    "date": "February 5, 2025",
+    "location": "Online",
+    "price": "2,999 Rs",
+    "imageUrl": "/Web Development Event.jpeg",
+    "description": "A 3-day bootcamp to master the fundamentals of web development.",
+    "agenda": [
+      {
+        "time": "Day 1: 9:00 AM - 5:00 PM",
+        "session": "Introduction to HTML & CSS",
+        "speaker": "Alice Johnson"
+      },
+      {
+        "time": "Day 2: 9:00 AM - 5:00 PM",
+        "session": "JavaScript for Beginners",
+        "speaker": "Bob Williams"
+      },
+      {
+        "time": "Day 3: 9:00 AM - 5:00 PM",
+        "session": "Building and Deploying a Website",
+        "speaker": "Charlie Brown"
+      }
+    ],
+    "highlights": [
+      "Live Coding Sessions",
+      "Real-World Projects",
+      "Interactive Q&A"
+    ],
+    "duration": "1 hours",
+    "summaryDescription": "demo",
+    "image": "/images/1742108114150_web development.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Event for deployment",
+    "date": "23-04-2026",
+    "description": "The hexadecimal color #fba758 has RGB values of R:251, G:167, B:88 and CMYK values of C:0, M:0.33, Y:0.65, K:0.02. Its decimal value is 16492376",
+    "price": "1 Rs",
+    "duration": "test",
+    "summaryDescription": "The hexadecimal color #fba758 has RGB values of R:251, G:167, B:88 and CMYK values of C:0, M:0.33, Y:0.65, K:0.02. Its decimal value is 16492376",
+    "image": "/images/1743358558741_img-5.jpg",
+    "highlights": [
+      "test 3"
+    ],
+    "organizer": "Rajat arya",
+    "location": "LAs Vegas",
+    "agenda": [
+      {
+        "time": "test 3",
+        "session": "test 3",
+        "speaker": "test 3"
+      }
+    ]
+  }
+]

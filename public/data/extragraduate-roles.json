@@ -1,0 +1,35 @@
+[
+    {
+        "id": 2,
+        "title": "Full Stack Developer",
+        "location": "Mumbai",
+        "description": "Develop end-to-end web applications using modern technologies.",
+        "requirements": [
+            "Proficiency in frontend and backend technologies such as React.js and Node.js",
+            "Experience with databases like MongoDB or MySQL",
+            "Ability to work with RESTful APIs and cloud services"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Flutter Developer",
+        "location": "Delhi",
+        "description": "Create engaging and high-performance mobile applications for iOS and Android.",
+        "requirements": [
+            "Experience with Flutter or React Native",
+            "Knowledge of mobile UI/UX best practices",
+            "Familiarity with API integration and Firebase"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "AI Prompt Engineer",
+        "location": "Chennai",
+        "description": "Design and optimize prompts for AI-driven applications to enhance user interactions.",
+        "requirements": [
+            "Strong understanding of AI models like GPT and LLMs",
+            "Experience in natural language processing (NLP)",
+            "Ability to fine-tune and experiment with AI-generated responses"
+        ]
+    }
+]

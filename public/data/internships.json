@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Software Development Internship",
+    "company": "Learning Destiny",
+    "stipend": "500Rs/month",
+    "imageUrl": "/SDIntern.jpeg",
+    "description": "Join our team to work on exciting software projects and enhance your skills.",
+    "lastUpdated": "2025-04-03T13:12:49.140Z",
+    "duration": "3 months",
+    "summaryDescription": "undefined",
+    "location": "REmote",
+    "organizer": "undefined",
+    "image": "/images/1742113837758_software development.jpg",
+    "highlights": [
+      "Should be 12 th pass minimum"
+    ],
+    "requirements": [
+      "HTML"
+    ],
+    "responsibilities": [
+      "Know Responsiveness"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Data Analyst Internship",
+    "company": "Learning Destiny",
+    "stipend": "500Rs/month",
+    "imageUrl": "/DMIntern.jpeg",
+    "description": "Gain hands-on experience in digital marketing strategies and social media management",
+    "lastUpdated": "Last updated: August 2024",
+    "duration": "7 months",
+    "summaryDescription": "demo",
+    "location": "undefined",
+    "organizer": "undefined",
+    "image": "/images/1742118532452_Data Analyst Intern.png"
+  },
+  {
+    "id": 3,
+    "title": "Graphic Designing Internship",
+    "company": "Learning Destiny",
+    "stipend": "400Rs/month",
+    "imageUrl": "/GraphicIntern.png",
+    "description": "Work with our design team to create engaging visuals for various projects.",
+    "lastUpdated": "2025-03-30T17:57:41.950Z",
+    "duration": "4 months",
+    "summaryDescription": "undefined",
+    "location": "Noida , India",
+    "organizer": "undefined",
+    "highlights": [
+      "Immediate joiner"
+    ],
+    "requirements": [
+      "Photoshop"
+    ],
+    "responsibilities": [
+      "Know Photoshop , Illustrator etc."
+    ],
+    "image": "/images/1743357461953_img-8.jpg"
+  },
+  {
+    "id": 4,
+    "title": "test",
+    "company": "test",
+    "stipend": "test",
+    "duration": "test",
+    "description": "stt",
+    "summaryDescription": "afds",
+    "location": "fads",
+    "image": "/images/1743358729714_img-6.jpg",
+    "highlights": [
+      "fadsf"
+    ],
+    "requirements": [
+      "afsd"
+    ],
+    "responsibilities": [
+      "asdf"
+    ],
+    "lastUpdated": "2025-03-30T18:18:49.722Z"
+  }
+]

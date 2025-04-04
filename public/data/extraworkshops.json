@@ -1,0 +1,119 @@
+[
+    {
+        "workshopId": 1,
+        "id": 1,
+        "title": "React.js Hands-On Workshop",
+        "instructor": "Priya Sharma",
+        "rating": 4.5,
+        "ratingCount": 220,
+        "price": "5,499 Rs",
+        "imageUrl": "",
+        "lastUpdated": "July 2024",
+        "duration": "20 hours",
+        "lectureCount": 10,
+        "description": "Gain hands-on experience in React.js and build dynamic web applications.",
+        "categories": ["Frontend Development"],
+        "highlights": ["Component-Based Architecture", "State Management"],
+        "roadmap": [
+            {
+                "month": "Week 1",
+                "weeks": [
+                    {
+                        "week": "Day 1: Introduction to React.js",
+                        "topics": [
+                            "JSX & Components",
+                            "Props & State",
+                            "Event Handling"
+                        ]
+                    },
+                    {
+                        "week": "Day 2: Advanced React Concepts",
+                        "topics": [
+                            "Hooks (useState, useEffect)",
+                            "React Router",
+                            "Handling API Calls"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "workshopId": 2,
+        "id": 2,
+        "title": "Cybersecurity Fundamentals Workshop",
+        "instructor": "Arjun Kapoor",
+        "rating": 4.7,
+        "ratingCount": 250,
+        "price": "6,299 Rs",
+        "imageUrl": "",
+        "lastUpdated": "August 2024",
+        "duration": "25 hours",
+        "lectureCount": 12,
+        "description": "Learn the basics of cybersecurity and how to protect digital assets.",
+        "categories": ["Security"],
+        "highlights": ["Network Security", "Ethical Hacking"],
+        "roadmap": [
+            {
+                "month": "Week 1",
+                "weeks": [
+                    {
+                        "week": "Day 1: Introduction to Cybersecurity",
+                        "topics": [
+                            "Cyber Threats & Attacks",
+                            "Basics of Encryption",
+                            "Password Security"
+                        ]
+                    },
+                    {
+                        "week": "Day 2: Ethical Hacking Basics",
+                        "topics": [
+                            "Penetration Testing",
+                            "SQL Injection & XSS",
+                            "Securing Web Applications"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "workshopId": 3,
+        "id": 3,
+        "title": "UI/UX Design Masterclass",
+        "instructor": "Meera Nair",
+        "rating": 4.8,
+        "ratingCount": 270,
+        "price": "4,999 Rs",
+        "imageUrl": "",
+        "lastUpdated": "September 2024",
+        "duration": "18 hours",
+        "lectureCount": 9,
+        "description": "Master the art of UI/UX design and create user-friendly interfaces.",
+        "categories": ["Design"],
+        "highlights": ["Wireframing", "Prototyping"],
+        "roadmap": [
+            {
+                "month": "Week 1",
+                "weeks": [
+                    {
+                        "week": "Day 1: Introduction to UI/UX Design",
+                        "topics": [
+                            "User Research & Personas",
+                            "Wireframing Basics",
+                            "Color Theory & Typography"
+                        ]
+                    },
+                    {
+                        "week": "Day 2: Prototyping & User Testing",
+                        "topics": [
+                            "Figma & Adobe XD",
+                            "Usability Testing",
+                            "Design Systems"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "title": "Junior Developer",
+    "location": "Bangalore",
+    "description": "Kickstart your career in software development with hands-on experience.",
+    "requirements": [
+      "Bachelor's degree in Computer Science or related field",
+      "Basic understanding of programming languages such as JavaScript and Python",
+      "Eagerness to learn and grow"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Marketing Associate",
+    "location": "Pune",
+    "description": "Gain exposure to digital marketing and brand strategies.",
+    "requirements": [
+      "Bachelor's degree in Marketing or related field",
+      "Basic understanding of digital marketing principles",
+      "Eagerness to learn and grow"
+    ],
+    "experience": "Fresher",
+    "date": "2025-03-15"
+  },
+  {
+    "id": 3,
+    "title": "Data Analyst Trainee",
+    "location": "Hyderabad",
+    "description": "Learn data analysis skills and work on real projects.",
+    "requirements": [
+      "Bachelor's degree in Data Science, Statistics, or related field",
+      "Basic understanding of data analysis tools and techniques",
+      "Eagerness to learn and grow"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "IT Recruiter",
+    "location": "Gurgaon",
+    "description": "Identify and attract top IT talent to join our growing team.",
+    "requirements": [
+      "Bachelor's degree in Human Resources or related field",
+      "Basic understanding of IT recruitment processes",
+      "Eagerness to learn and grow"
+    ],
+    "experience": "Fresher",
+    "date": "2025-03-15"
+  },
+  {
+    "id": 5,
+    "title": "Cloud Consultant",
+    "location": "Mumbai",
+    "description": "Advise and implement cloud solutions to optimize business operations.",
+    "requirements": [
+      "Bachelor's degree in Computer Science or related field",
+      "Basic understanding of cloud platforms like AWS or Azure",
+      "Eagerness to learn and grow"
+    ],
+    "type": "graduate"
+  },
+  {
+    "id": 6,
+    "title": "Content Writing",
+    "location": "Remote",
+    "description": "Create engaging and informative content for various digital platforms.",
+    "requirements": [
+      "Bachelor's degree in English, Journalism, or related field",
+      "Basic understanding of content writing principles",
+      "Eagerness to learn and grow"
+    ],
+    "experience": "undefined",
+    "date": "2025-03-29"
+  }
+]

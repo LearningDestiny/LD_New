@@ -1,0 +1,31 @@
+[
+  {
+    "id": "1743711616971",
+    "userId": "user_1743711616971",
+    "internship": {
+      "name": "Software Development Internship",
+      "description": "Join our team to work on exciting software projects and enhance your skills.",
+      "location": "REmote",
+      "id": "1",
+      "url": "internship/1"
+    },
+    "user": {
+      "fullname": "Rajat arya",
+      "email": "raj@gmail.com",
+      "phone": "123123123",
+      "city": "Nanmangalam",
+      "state": "Tamil Nadu",
+      "country": "India",
+      "university": "TEST",
+      "graduationYear": "2028",
+      "linkedin": "",
+      "portfolio": "",
+      "dob": "2025-04-03"
+    },
+    "application": {
+      "coverLetter": "",
+      "resumePath": "uploads\\resumes\\100Questions_1743711616967.pdf",
+      "date": "2025-04-03"
+    }
+  }
+]

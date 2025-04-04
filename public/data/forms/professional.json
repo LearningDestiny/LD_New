@@ -1,0 +1,73 @@
+[
+  {
+    "id": "1743709709529",
+    "userId": "user_1743709709529",
+    "role": {
+      "type": "professional",
+      "name": "Software Engineer",
+      "description": "fasdfadsf",
+      "location": "Hyderabad",
+      "id": "1"
+    },
+    "user": {
+      "fullname": "Test",
+      "email": "Test@gmail.com",
+      "phone": "13123123",
+      "city": "Andheri",
+      "state": "Maharashtra",
+      "country": "India",
+      "experience": "1-3",
+      "currentEmployer": "",
+      "skills": [
+        "HTML",
+        "CSS"
+      ],
+      "linkedin": "",
+      "portfolio": "",
+      "dob": "2025-04-01"
+    },
+    "application": {
+      "coverLetter": "",
+      "resumePath": "uploads\\resumes\\_FlowCV_Resume_20240422_1743709709524.pdf",
+      "expectedSalary": "2123123",
+      "availableStartDate": "2025-04-01",
+      "source": "Social Media",
+      "date": "2025-04-03"
+    }
+  },
+  {
+    "id": "1743712239023",
+    "userId": "user_1743712239023",
+    "role": {
+      "type": "professional",
+      "name": "Software Engineer",
+      "description": "fasdfadsf",
+      "location": "Hyderabad",
+      "id": "1"
+    },
+    "user": {
+      "fullname": "TEST",
+      "email": "Test@gmail.com",
+      "phone": "123113",
+      "city": "Nanmangalam",
+      "state": "Tamil Nadu",
+      "country": "India",
+      "experience": "3-5",
+      "currentEmployer": "",
+      "skills": [
+        "HTML"
+      ],
+      "linkedin": "",
+      "portfolio": "",
+      "dob": "2025-04-06"
+    },
+    "application": {
+      "coverLetter": "",
+      "resumePath": "uploads\\resumes\\_FlowCV_Resume_20240422_1743712239021.pdf",
+      "expectedSalary": "2300",
+      "availableStartDate": "2025-04-04",
+      "source": "Social Media",
+      "date": "2025-04-03"
+    }
+  }
+]

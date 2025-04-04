@@ -1,0 +1,17 @@
+@keyframes scrollText {
+    0% {
+      transform: translateX(100%); /* Start from right off-screen */
+    }
+    100% {
+      transform: translateX(-100000%); /* End off-screen to the left */
+    }
+  }
+  
+  .scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scrollText 10s linear 1; /* Runs once over 10 seconds */
+    animation-fill-mode: forwards; /* Keeps final position after animation */
+    width: 100vw; /* Ensure text spans across the entire view */
+  }
+  

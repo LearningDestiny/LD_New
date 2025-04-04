@@ -1,0 +1,32 @@
+[
+    {
+        "id": 4,
+        "title": "Cloud Computing Internship",
+        "company": "CloudX Solutions",
+        "stipend": "10,000 Rs/month",
+        "imageUrl": "",
+        "description": "Gain hands-on experience with AWS, Azure, and Google Cloud to build scalable cloud solutions.",
+        "lastUpdated": "Last updated: March 2025",
+        "duration": "3 months"
+    },
+    {
+        "id": 5,
+        "title": "Mobile Development Internship",
+        "company": "AppVision",
+        "stipend": "9,000 Rs/month",
+        "imageUrl": "",
+        "description": "Develop cutting-edge mobile applications using Flutter and React Native.",
+        "lastUpdated": "Last updated: April 2025",
+        "duration": "3 months"
+    },
+    {
+        "id": 6,
+        "title": "Blockchain Development Internship",
+        "company": "BlockInnovate",
+        "stipend": "11,000 Rs/month",
+        "imageUrl": "",
+        "description": "Dive into blockchain technology, smart contracts, and decentralized applications using Ethereum and Solidity.",
+        "lastUpdated": "Last updated: February 2025",
+        "duration": "3 months"
+    }
+]

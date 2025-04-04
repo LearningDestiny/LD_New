@@ -1,0 +1,164 @@
+[
+    {
+        "courseId": 9,
+        "id": 9,
+        "title": "Node.js for Beginners",
+        "instructor": "Ramesh Verma",
+        "rating": 4.2,
+        "ratingCount": 180,
+        "price": "4,799 Rs",
+        "imageUrl": "",
+        "lastUpdated": "June 2024",
+        "duration": "55 hours",
+        "lectureCount": 22,
+        "description": "Master the fundamentals of Node.js and build scalable backend applications.",
+        "categories": ["Backend Development"],
+        "highlights": ["Express.js", "Database Integration"],
+        "roadmap": [
+            {
+                "month": "Month 1",
+                "weeks": [
+                    {
+                        "week": "Week 1: Introduction to Node.js",
+                        "topics": [
+                            "Setup & Installation",
+                            "Modules & NPM",
+                            "Creating Basic Server"
+                        ]
+                    },
+                    {
+                        "week": "Week 2: File System & Streams",
+                        "topics": [
+                            "Handling Files",
+                            "Reading & Writing Streams"
+                        ]
+                    }
+                ]
+            },
+            {
+                "month": "Month 2",
+                "weeks": [
+                    {
+                        "week": "Week 1: Express.js Basics",
+                        "topics": [
+                            "Middleware & Routing",
+                            "RESTful API Development"
+                        ]
+                    }
+                ]
+            },
+            {
+                "month": "Month 3",
+                "weeks": [
+                    {
+                        "week": "Week 1: Database Connectivity",
+                        "topics": [
+                            "MongoDB with Mongoose",
+                            "CRUD Operations"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "courseId": 7,
+        "id": 7,
+        "title": "Mastering MySQL",
+        "instructor": "Vikram Patel",
+        "rating": 4.3,
+        "ratingCount": 160,
+        "price": "4,599 Rs",
+        "imageUrl": "",
+        "lastUpdated": "July 2024",
+        "duration": "45 hours",
+        "lectureCount": 18,
+        "description": "Learn MySQL from scratch and efficiently manage databases for web applications.",
+        "categories": ["Database Management"],
+        "highlights": ["SQL Queries", "Database Optimization"],
+        "roadmap": [
+            {
+                "month": "Month 1",
+                "weeks": [
+                    {
+                        "week": "Week 1: Introduction to MySQL",
+                        "topics": [
+                            "Database Basics",
+                            "Installation & Setup",
+                            "SQL Syntax & Commands"
+                        ]
+                    },
+                    {
+                        "week": "Week 2: Advanced SQL Queries",
+                        "topics": [
+                            "Joins & Subqueries",
+                            "Indexes & Performance Tuning"
+                        ]
+                    }
+                ]
+            },
+            {
+                "month": "Month 2",
+                "weeks": [
+                    {
+                        "week": "Week 1: Database Design & Normalization",
+                        "topics": [
+                            "Normalization Techniques",
+                            "ER Diagrams & Schema Design"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "courseId": 8,
+        "id": 8,
+        "title": "Bootstrap & Responsive Web Design",
+        "instructor": "Neha Agarwal",
+        "rating": 4.6,
+        "ratingCount": 190,
+        "price": "3,999 Rs",
+        "imageUrl": "",
+        "lastUpdated": "August 2024",
+        "duration": "30 hours",
+        "lectureCount": 15,
+        "description": "Create stunning and fully responsive web designs with Bootstrap.",
+        "categories": ["Frontend Development"],
+        "highlights": ["Grid System", "Custom Components"],
+        "roadmap": [
+            {
+                "month": "Month 1",
+                "weeks": [
+                    {
+                        "week": "Week 1: Getting Started with Bootstrap",
+                        "topics": [
+                            "Installation & Setup",
+                            "Bootstrap Basics",
+                            "Typography & Utilities"
+                        ]
+                    },
+                    {
+                        "week": "Week 2: Responsive Layouts",
+                        "topics": [
+                            "Grid System",
+                            "Flexbox & CSS Grid"
+                        ]
+                    }
+                ]
+            },
+            {
+                "month": "Month 2",
+                "weeks": [
+                    {
+                        "week": "Week 1: Customizing Bootstrap",
+                        "topics": [
+                            "Using SCSS for Custom Styling",
+                            "Creating Custom Components"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
