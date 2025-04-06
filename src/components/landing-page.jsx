@@ -147,7 +147,7 @@ export function Header() {
           <title>Learning Destiny</title>
           <link rel="canonical" href="https://learningdestiny.in/" />
         </Helmet>
-        <Link href="/landing-page" className="flex items-center">
+        <Link href="https://learningdestiny.in/" className="flex items-center">
           <Image
             src="/Learning Destiny.png"
             alt="Learning Destiny Logo"
