@@ -1,14 +1,12 @@
 'use client'
 import React from 'react'
 import LandingPage from '../../components/landing-page'
-const page = () => {
-  return (
-    <>
 
-    <>
-    
-    </>
+const Page = () => {
+  return (
+    <LandingPage />
   )
 }
 
-export default page
+export default Page
+
