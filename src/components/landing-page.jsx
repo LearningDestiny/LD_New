@@ -27,7 +27,7 @@ const internships = [
     imageUrl: '/SDIntern.jpeg',
     description: 'Join our team to work on exciting software projects and enhance your skills.',
     lastUpdated: 'Last updated: September 2024',
-    duration: '3 months',
+    duration: '5 months',
     responsibilities: ['Developing web applications', 'Collaborating with team members', 'Participating in code reviews'],
   },
   {
